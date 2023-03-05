@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./product.component.css']
 })
 export class ProductComponent {
+  //products = Products;
+}
 
+export interface Product {
+  id: number;
+  name: string;
+  quantity: number;
+  price: number;
 }

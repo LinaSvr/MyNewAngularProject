@@ -6,3 +6,37 @@ div {
   border: 2px solid rgb(250, 107, 107);
   background-color: rgb(250, 195, 195);
  }
+
+ .product {
+   width: 80%;
+   margin: 30px;
+   padding: 5px;
+   background-color: rgb(255, 255, 255);
+   border: 2px solid rgb(0, 0, 0);
+ }
+
+ .span-right {
+   float: right!important;
+ }
+
+ .span-center {
+   float: center!important;
+ }
+
+ .span-left {
+   float: left!important;
+ }
+
+ .span {
+   width: 90px;
+   display: inline-block;
+   padding: 4px 15px;
+   margin: 8px;
+   vertical-align: middle;
+   overflow: hidden;
+   text-decoration: none;
+   color: inherit;
+   text-align: center;
+   cursor: pointer;
+   white-space: nowrap;
+ }
