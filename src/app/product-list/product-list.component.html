@@ -1,0 +1,11 @@
+<div>
+  <ul class="products">
+    <li *ngFor="let product of products">
+      <button class="product">
+        <span class="span-left span">{{product.name}}</span>
+        <span class="span-center span">{{product.quantity}}</span>
+        <span class="span-right span">{{product.price}}</span>
+      </button>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,23 @@
+.w3-right {
+  float: right!important;
+}
+
+.w3-left {
+  float: left!important;
+}
+
+.w3-btn {
+  width: 90px;
+  display: inline-block;
+  padding: 4px 15px;
+  margin: 8px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: rgb(250, 195, 195);
+  border: 2px solid rgb(250, 107, 107);
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
